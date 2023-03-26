@@ -2,18 +2,20 @@
   <div class="container mt-5">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Requirements for Internship Developer</h5>
+        <h2 class="card-title">Requirements for Internship Developer</h2>
+        <H4>Интерн - первый шаг на дорожной карте разработчика в Kolesa Group.</H4>
         <ul>
-        <li>Опыт работы с языком программирования PHP</li>
-          <li>Базовый синтаксис языка PHP, знание типов данных и конструкций языка</li>
-          <li>Базовые навыки вёрстки (CSS, HTML)</li>
-          <li>Опыт работы с Git (pull, commit, push, branch, checkout)</li>
-          <li>Понимание объектно-ориентированного программирования (ООП), объекты, классы, интерфейсы</li>
-          <li>Понимание архитектурного паттерна Model-View-Controller (MVC)</li>
-          <li>Базовый синтаксис языка SQL (select, update, insert, delete)</li>
-          <li>Базовое понимание работы операционной системы Linux, включая директории, пользователей</li>
-          <li>Умение работать в окружении разработки по SSH</li>
-          <li>Умение работать с инструментами разработки, включая IDE (например, PhpStorm или VSCode) и клиенты MySQL (например, DataGrip, HeidiSQL или MySQL Workbench)</li>
+          <H5>Hard Skills</H5>
+          <li>Язык программирования (любой)</li>
+          <li>Знание что такое PHP и готовность его изучать</li>
+          <H5>Обязанности</H5>
+          <li>Иметь бешеное желание стать Back-end разработчиком</li>
+          <li>Стремительно развиваться</li>
+          <li>Быть ответственным</li>
+          <li>Уметь формулировать вопросы</li>
+          <li>Уметь гуглить</li>
+          <li>Взаимодействовать с членами своей команды</li>
+          <li>Следовать внутренним правилам разработки программного обеспечения</li>
         </ul>
         <Navigation :currentPage="'Intern'" />
       </div>

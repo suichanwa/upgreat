@@ -9,6 +9,7 @@
       <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
     </div>
     <ul class="nav flex-column mt-3">
+      <h2>Grades</h2>
       <li class="nav-item">
         <nuxt-link class="nav-link active" to="/intern">
           <i class="fas fa-code-branch"></i>
