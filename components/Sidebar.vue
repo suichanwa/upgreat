@@ -27,6 +27,12 @@
           <span>Middle</span>
         </nuxt-link>
       </li>
+      <li class="nav-item">
+        <nuxt-link class="nav-link" to="/senior">
+          <i class="fas fa-user-tie"></i>
+          <span>Senior</span>
+        </nuxt-link>
+      </li>
     </ul>
   </nav>
 </template>
