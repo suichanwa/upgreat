@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <Header/>
     <h1>Dashboard</h1>
     <div class="card mb-3">
       <div class="card-header">My Progress</div>
@@ -16,6 +17,7 @@
 </template>
 
 <script>
+import Header from '~/components/Header.vue'
 export default {
   name: 'Dashboard',
   computed: {
@@ -37,3 +39,10 @@ export default {
   }
 };
 </script>
+<style scoped>
+h1{
+  margin: 20px 0;
+  padding: auto;
+  box-sizing: border-box;
+}
+</style>
