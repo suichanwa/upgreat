@@ -4,7 +4,7 @@
       <a href="#" class="list-group-item list-group-item-action">
         <img :src="user.profilePicture" alt="User Profile Picture" class="profile-picture">
         <h4>{{ user.name }}</h4>
-        <p>Level {{ user.level }}</p>
+        <p>{{ user.scale }}</p>
       </a>
       <a href="#" class="list-group-item list-group-item-action">
         <nuxt-link class="nav-link" to="/dashboard">Dashboard</nuxt-link>
@@ -12,7 +12,6 @@
     </div>
   </div>
 </template>
-
 <script>
 import Dashboard from '../pages/Dashboard.vue'
 
@@ -26,7 +25,7 @@ export default {
       user: {
         name: 'John Doe',
         profilePicture: 'https://i.imgur.com/wF06y10.png',
-        level: 5
+        scale: 'Intern'
       },
       dashboardData: {
         progress: 75,
@@ -37,7 +36,6 @@ export default {
   }
 }
 </script>
-
 <style scoped>
 .profile-picture {
   width: 100%;

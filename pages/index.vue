@@ -6,7 +6,7 @@
         <Sidebar />
       </div>
       <div class="col-md-6">
-        <h1>Welcome to the Kolesa Group Developer Roadmap</h1>
+        <h1>Welcome to the backend Developer Roadmap</h1>
         <p>Select a level of expertise to view the requirements:</p>
         <ul>
           <li>
