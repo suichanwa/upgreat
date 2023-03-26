@@ -2,14 +2,11 @@
   <div class="container mt-5">
     <div class="card">
       <div class="card-body">
-        <h2 class="card-title">Требования для Junior Разработчика</h2>
-        <h4>Junior - это следующий шаг на дорожной карте разработчика. Разработчик становится полноценным членом нашей команды, который отныне имеет чёткие полномочия и обязанности.</h4>
+        <h5 class="card-title">Требования для Junior Разработчика</h5>
         <ul>
-          <h5>Hard Skills</h5>
-          <li><ul><h6>Опыт использования языка программирования PHP</h6> 
-            <li>Базовое знание синтаксиса, типов данных и понимание концепций объектно-ориентированного программирования</li>
+          <li>Опыт использования языка программирования PHP</li>
+          <li>Базовое знание синтаксиса, типов данных и понимание концепций объектно-ориентированного программирования</li>
           <li>Базовые навыки в HTML и CSS</li>
-          </ul></li>
           <li>Опыт использования Git для контроля версий</li>
           <li>Понимание архитектурного шаблона Model-View-Controller (MVC)</li>
           <li>Базовый синтаксис SQL запросов, включая SELECT, UPDATE, INSERT и DELETE</li>
@@ -23,12 +20,13 @@
 </template>
 <script>
 import Navigation from '../components/Navigation.vue';
+import Sidebar from '../components/Sidebar.vue';
 
 export default {
   name: 'Junior',
   components: {
-    Navigation
+    Navigation,
+    Sidebar
   }
 }
 </script>
-
