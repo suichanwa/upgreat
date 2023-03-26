@@ -12,7 +12,10 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' ,
+      href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css',
+    },
+      
     ]
   },
 
@@ -39,5 +42,25 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+ routes: [
+  {
+    path: '/intern',
+    component: '~/pages/Intern.vue'
+  },
+  {
+    path: '/junior',
+    component: '~/pages/Junior.vue'
+  },
+  {
+    path: '/middle',
+    component: '~/pages/Middle.vue'
+  },
+  {
+    path: '/dashboard',
+    component: '~/pages/Dashboard.vue'
   }
+]
+
 }
