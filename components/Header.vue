@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/">Kolesa Group</a>
+    <a class="navbar-brand" href="/">Upgreat.com</a>
     <button
       class="navbar-toggler"
       type="button"
@@ -25,3 +25,11 @@ export default {
   name: 'Header'
 };
 </script>
+<style scoped>
+a{
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+}
+</style>
